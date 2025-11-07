@@ -1,0 +1,17 @@
+{
+  "dataset_name": "Laki-Poet Corpus",
+  "language": "Laki",
+  "dialect": "Delfan",
+  "total_poems": 140,
+  "total_lines": 1400,
+  "collection_period": "2012-2024",
+  "region": "Delfan, Lorestan, Iran",
+  "annotation_types": [
+    "phonetic_transcription",
+    "metaphor_labeling", 
+    "cultural_context",
+    "structural_analysis"
+  ],
+  "native_speakers": 15,
+  "file_format": "text"
+}
