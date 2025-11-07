@@ -1,0 +1,16 @@
+def detect_metaphors(text):
+    metaphors = []
+    metaphor_patterns = [
+        "??????",
+        "??? ???", 
+        "????? ????",
+    ]
+    for pattern in metaphor_patterns:
+        if pattern in text:
+            metaphors.append(pattern)
+    return metaphors
+
+??? ???? ????
+if name == "__main__":
+    sample_text = "???? ??????"
+    print("Metaphors found:", detect_metaphors(sample_text))
